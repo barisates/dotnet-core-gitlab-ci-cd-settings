@@ -9,9 +9,11 @@ We use Coverlet for code coverage report. It allows us to integrate GitLab  CI /
 
 *Latest stable version:* [![NuGet](https://img.shields.io/nuget/v/coverlet.msbuild.svg)](https://www.nuget.org/packages/coverlet.msbuild)
 
+**MSBuild Integration:**
 ```
 dotnet add package coverlet.msbuild
 ```
+
 **Coverlet output on Gitlab CI / CD:**
 
 ![Coverlet output on Gitlab CI / CD](http://barisates.com/git/ci-cd/coverlet-console.jpg "Coverlet output on Gitlab CI / CD")
