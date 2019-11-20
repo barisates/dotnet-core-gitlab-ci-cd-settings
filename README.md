@@ -33,4 +33,5 @@ Total[^|]*\|[^|]*\s+([\d\.]+)
 ```
 
 **Coverage report badge:**
+
 ![Coverage report badge](http://barisates.com/git/ci-cd/badge.jpg "Coverage report badge")
