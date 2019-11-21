@@ -1,0 +1,16 @@
+﻿# https://hub.docker.com/_/microsoft-dotnet-core
+image: microsoft/dotnet:latest
+#This declares the pipeline stages  
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - dotnet build
+
+test:
+  stage: test
+  script:
+    - dotnet test /p:CollectCoverage=true
